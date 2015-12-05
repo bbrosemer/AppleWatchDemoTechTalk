@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9060" systemVersion="15C31f" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ip4-YA-wC5">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9019"/>
+    </dependencies>
+    <scenes>
+        <!--Trivia Interface Controller-->
+        <scene sceneID="Swy-pn-xRj">
+            <objects>
+                <controller id="ip4-YA-wC5" customClass="TriviaInterfaceController">
+                    <items>
+                        <picker height="100" alignment="left" focusStyle="sequence" indicatorMode="shownWhileFocused" id="v3l-bg-21k"/>
+                    </items>
+                    <connections>
+                        <outlet property="triviaAnswers" destination="v3l-bg-21k" id="I8v-Fs-y92"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="313" y="54"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController"/>
+            </objects>
+            <point key="canvasLocation" x="235" y="347"/>
+        </scene>
+        <!--Glance Interface Controller-->
+        <scene sceneID="BOz-TT-tkC">
+            <objects>
+                <glanceController spacing="0.0" id="0uZ-2p-rRc" customClass="GlanceController">
+                    <items>
+                        <group alignment="left" id="t8f-Gd-c4y">
+                            <items>
+                                <label alignment="left" text="WhirlyPond" id="28D-eA-cEp"/>
+                            </items>
+                        </group>
+                        <group alignment="left" id="uCw-4Q-Ouw">
+                            <items>
+                                <label width="134.5" height="76.5" alignment="left" text="Label" id="awn-Kz-X7C"/>
+                            </items>
+                        </group>
+                    </items>
+                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
+                    <connections>
+                        <outlet property="status" destination="awn-Kz-X7C" id="Cck-2f-O2p"/>
+                    </connections>
+                </glanceController>
+            </objects>
+            <point key="canvasLocation" x="235" y="672"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label height="93.5" alignment="left" text="Your dishwasher has finished" numberOfLines="3" id="XkS-y5-khE"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="DWTest" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="XkS-y5-khE" id="49B-RR-99y"/>
+                        <segue destination="gdX-wl-uQE" kind="relationship" relationship="dynamicNotificationInterface" id="fKh-qV-3T2"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="235" y="1001"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="KIl-fV-djm">
+            <objects>
+                <controller id="gdX-wl-uQE" customClass="NotificationController">
+                    <items>
+                        <group width="1" alignment="left" id="aBl-wV-DrD">
+                            <items>
+                                <label alignment="left" text="Username" id="esb-Hx-Clj"/>
+                            </items>
+                        </group>
+                        <separator alignment="left" id="mMG-v4-ZC3"/>
+                        <label alignment="left" text="Status : " id="fw9-HI-dD5"/>
+                    </items>
+                    <connections>
+                        <outlet property="dwStatus" destination="fw9-HI-dD5" id="rz4-uL-mvm"/>
+                        <outlet property="userName" destination="esb-Hx-Clj" id="REh-lP-4R0"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="553" y="1001"/>
+        </scene>
+    </scenes>
+</document>

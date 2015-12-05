@@ -1,0 +1,1100 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD4642841C0DF243007E14D1 /* DWKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DD4642831C0DF243007E14D1 /* DWKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD4642881C0DF243007E14D1 /* DWKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4642811C0DF243007E14D1 /* DWKit.framework */; };
+		DD4642891C0DF243007E14D1 /* DWKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DD4642811C0DF243007E14D1 /* DWKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DD46428E1C0DF2C9007E14D1 /* DishwasherTriviaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFEB0571C0B78BF00FA8BF6 /* DishwasherTriviaObject.m */; };
+		DD46428F1C0DF2CC007E14D1 /* DishwasherTriviaQuestionObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFEB0661C0BBCD300FA8BF6 /* DishwasherTriviaQuestionObject.m */; };
+		DD4642901C0DF2D1007E14D1 /* DishwasherTriviaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFEB0691C0BBDC500FA8BF6 /* DishwasherTriviaManager.m */; };
+		DD4642911C0DF31E007E14D1 /* DishwasherTriviaObject.h in Headers */ = {isa = PBXBuildFile; fileRef = DDFEB0561C0B78BF00FA8BF6 /* DishwasherTriviaObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD4642921C0DF31E007E14D1 /* DishwasherTriviaQuestionObject.h in Headers */ = {isa = PBXBuildFile; fileRef = DDFEB0651C0BBCD300FA8BF6 /* DishwasherTriviaQuestionObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD4642931C0DF31E007E14D1 /* DishwasherTriviaManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DDFEB0681C0BBDC500FA8BF6 /* DishwasherTriviaManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD4642961C0DF39C007E14D1 /* DishwasherObject.h in Headers */ = {isa = PBXBuildFile; fileRef = DDFEB05D1C0B7CB100FA8BF6 /* DishwasherObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD4642971C0DF39C007E14D1 /* DishwasherStatusObject.h in Headers */ = {isa = PBXBuildFile; fileRef = DDFEB05A1C0B78D100FA8BF6 /* DishwasherStatusObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD4642981C0DF39C007E14D1 /* DishwasherCurrentStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = DDFEB0611C0B7E0500FA8BF6 /* DishwasherCurrentStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD4642991C0DF3B3007E14D1 /* DishwasherObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFEB05E1C0B7CB100FA8BF6 /* DishwasherObject.m */; };
+		DD46429A1C0DF3B3007E14D1 /* DishwasherStatusObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFEB05B1C0B78D100FA8BF6 /* DishwasherStatusObject.m */; };
+		DD46429B1C0DF3B3007E14D1 /* DishwasherCurrentStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFEB0621C0B7E0500FA8BF6 /* DishwasherCurrentStatus.m */; };
+		DD46429F1C0DF5D4007E14D1 /* NSMutableArray+Shuffle.h in Headers */ = {isa = PBXBuildFile; fileRef = DD46429D1C0DF5D4007E14D1 /* NSMutableArray+Shuffle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD4642A01C0DF5D4007E14D1 /* NSMutableArray+Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = DD46429E1C0DF5D4007E14D1 /* NSMutableArray+Shuffle.m */; };
+		DD4642A31C0DF722007E14D1 /* TriviaPickerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4642A21C0DF722007E14D1 /* TriviaPickerItem.m */; };
+		DD4642AC1C0E0089007E14D1 /* DWKitWatch.h in Headers */ = {isa = PBXBuildFile; fileRef = DD4642AB1C0E0089007E14D1 /* DWKitWatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD4642B01C0E0089007E14D1 /* DWKitWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4642A91C0E0089007E14D1 /* DWKitWatch.framework */; };
+		DD4642B11C0E0089007E14D1 /* DWKitWatch.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DD4642A91C0E0089007E14D1 /* DWKitWatch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DD4642B61C0E00C4007E14D1 /* DishwasherTriviaObject.h in Headers */ = {isa = PBXBuildFile; fileRef = DDFEB0561C0B78BF00FA8BF6 /* DishwasherTriviaObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD4642B71C0E00C4007E14D1 /* DishwasherTriviaQuestionObject.h in Headers */ = {isa = PBXBuildFile; fileRef = DDFEB0651C0BBCD300FA8BF6 /* DishwasherTriviaQuestionObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD4642B81C0E00C4007E14D1 /* DishwasherTriviaManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DDFEB0681C0BBDC500FA8BF6 /* DishwasherTriviaManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD4642B91C0E00C4007E14D1 /* DishwasherObject.h in Headers */ = {isa = PBXBuildFile; fileRef = DDFEB05D1C0B7CB100FA8BF6 /* DishwasherObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD4642BA1C0E00C4007E14D1 /* DishwasherStatusObject.h in Headers */ = {isa = PBXBuildFile; fileRef = DDFEB05A1C0B78D100FA8BF6 /* DishwasherStatusObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD4642BB1C0E00C4007E14D1 /* DishwasherCurrentStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = DDFEB0611C0B7E0500FA8BF6 /* DishwasherCurrentStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD4642BC1C0E00D8007E14D1 /* DishwasherTriviaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFEB0571C0B78BF00FA8BF6 /* DishwasherTriviaObject.m */; };
+		DD4642BD1C0E00D8007E14D1 /* DishwasherTriviaQuestionObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFEB0661C0BBCD300FA8BF6 /* DishwasherTriviaQuestionObject.m */; };
+		DD4642BE1C0E00D8007E14D1 /* DishwasherTriviaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFEB0691C0BBDC500FA8BF6 /* DishwasherTriviaManager.m */; };
+		DD4642BF1C0E00D8007E14D1 /* DishwasherObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFEB05E1C0B7CB100FA8BF6 /* DishwasherObject.m */; };
+		DD4642C01C0E00D8007E14D1 /* DishwasherStatusObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFEB05B1C0B78D100FA8BF6 /* DishwasherStatusObject.m */; };
+		DD4642C11C0E00D8007E14D1 /* DishwasherCurrentStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFEB0621C0B7E0500FA8BF6 /* DishwasherCurrentStatus.m */; };
+		DD4642C21C0E00D8007E14D1 /* NSMutableArray+Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = DD46429E1C0DF5D4007E14D1 /* NSMutableArray+Shuffle.m */; };
+		DD4642C31C0E00E3007E14D1 /* NSMutableArray+Shuffle.h in Headers */ = {isa = PBXBuildFile; fileRef = DD46429D1C0DF5D4007E14D1 /* NSMutableArray+Shuffle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD4642C71C0E0FAC007E14D1 /* ComplicationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4642C61C0E0FAC007E14D1 /* ComplicationManager.m */; };
+		DDFEB0071C0B776600FA8BF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFEB0061C0B776600FA8BF6 /* main.m */; };
+		DDFEB00A1C0B776600FA8BF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFEB0091C0B776600FA8BF6 /* AppDelegate.m */; };
+		DDFEB00D1C0B776600FA8BF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFEB00C1C0B776600FA8BF6 /* ViewController.m */; };
+		DDFEB0101C0B776600FA8BF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFEB00E1C0B776600FA8BF6 /* Main.storyboard */; };
+		DDFEB0121C0B776600FA8BF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDFEB0111C0B776600FA8BF6 /* Assets.xcassets */; };
+		DDFEB0151C0B776600FA8BF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFEB0131C0B776600FA8BF6 /* LaunchScreen.storyboard */; };
+		DDFEB01A1C0B776600FA8BF6 /* Dishwasher Trivia WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DDFEB0191C0B776600FA8BF6 /* Dishwasher Trivia WatchKit App.app */; };
+		DDFEB0201C0B776600FA8BF6 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFEB01E1C0B776600FA8BF6 /* Interface.storyboard */; };
+		DDFEB0221C0B776600FA8BF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDFEB0211C0B776600FA8BF6 /* Assets.xcassets */; };
+		DDFEB0291C0B776600FA8BF6 /* Dishwasher Trivia WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DDFEB0281C0B776600FA8BF6 /* Dishwasher Trivia WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DDFEB0311C0B776600FA8BF6 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFEB0301C0B776600FA8BF6 /* InterfaceController.m */; };
+		DDFEB0341C0B776600FA8BF6 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFEB0331C0B776600FA8BF6 /* ExtensionDelegate.m */; };
+		DDFEB0371C0B776600FA8BF6 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFEB0361C0B776600FA8BF6 /* NotificationController.m */; };
+		DDFEB03A1C0B776600FA8BF6 /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFEB0391C0B776600FA8BF6 /* GlanceController.m */; };
+		DDFEB03D1C0B776600FA8BF6 /* ComplicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFEB03C1C0B776600FA8BF6 /* ComplicationController.m */; };
+		DDFEB03F1C0B776600FA8BF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDFEB03E1C0B776600FA8BF6 /* Assets.xcassets */; };
+		DDFEB0501C0B783C00FA8BF6 /* DishwasherInterfaceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFEB04F1C0B783C00FA8BF6 /* DishwasherInterfaceManager.m */; };
+		DDFEB06D1C0BBF4E00FA8BF6 /* TriviaInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFEB06C1C0BBF4E00FA8BF6 /* TriviaInterfaceController.m */; };
+		DDFEB0741C0BC07000FA8BF6 /* HRMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFEB0731C0BC07000FA8BF6 /* HRMonitor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD4642861C0DF243007E14D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDFEAFFA1C0B776600FA8BF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD4642801C0DF243007E14D1;
+			remoteInfo = DWKit;
+		};
+		DD4642AE1C0E0089007E14D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDFEAFFA1C0B776600FA8BF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD4642A81C0E0089007E14D1;
+			remoteInfo = DWKitWatch;
+		};
+		DDFEB01B1C0B776600FA8BF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDFEAFFA1C0B776600FA8BF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDFEB0181C0B776600FA8BF6;
+			remoteInfo = "Dishwasher Trivia WatchKit App";
+		};
+		DDFEB02A1C0B776600FA8BF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDFEAFFA1C0B776600FA8BF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDFEB0271C0B776600FA8BF6;
+			remoteInfo = "Dishwasher Trivia WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DD46428D1C0DF243007E14D1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DD4642891C0DF243007E14D1 /* DWKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4642B51C0E0089007E14D1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DD4642B11C0E0089007E14D1 /* DWKitWatch.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFEB0461C0B776600FA8BF6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DDFEB0291C0B776600FA8BF6 /* Dishwasher Trivia WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFEB04A1C0B776600FA8BF6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DDFEB01A1C0B776600FA8BF6 /* Dishwasher Trivia WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DD4642811C0DF243007E14D1 /* DWKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DWKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4642831C0DF243007E14D1 /* DWKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWKit.h; sourceTree = "<group>"; };
+		DD4642851C0DF243007E14D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD46429D1C0DF5D4007E14D1 /* NSMutableArray+Shuffle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Shuffle.h"; sourceTree = "<group>"; };
+		DD46429E1C0DF5D4007E14D1 /* NSMutableArray+Shuffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Shuffle.m"; sourceTree = "<group>"; };
+		DD4642A11C0DF722007E14D1 /* TriviaPickerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriviaPickerItem.h; sourceTree = "<group>"; };
+		DD4642A21C0DF722007E14D1 /* TriviaPickerItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriviaPickerItem.m; sourceTree = "<group>"; };
+		DD4642A91C0E0089007E14D1 /* DWKitWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DWKitWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4642AB1C0E0089007E14D1 /* DWKitWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWKitWatch.h; sourceTree = "<group>"; };
+		DD4642AD1C0E0089007E14D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD4642C51C0E0FAC007E14D1 /* ComplicationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComplicationManager.h; sourceTree = "<group>"; };
+		DD4642C61C0E0FAC007E14D1 /* ComplicationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComplicationManager.m; sourceTree = "<group>"; };
+		DDFEB0021C0B776600FA8BF6 /* Dishwasher Trivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dishwasher Trivia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFEB0061C0B776600FA8BF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDFEB0081C0B776600FA8BF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDFEB0091C0B776600FA8BF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDFEB00B1C0B776600FA8BF6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDFEB00C1C0B776600FA8BF6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDFEB00F1C0B776600FA8BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDFEB0111C0B776600FA8BF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDFEB0141C0B776600FA8BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDFEB0161C0B776600FA8BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDFEB0191C0B776600FA8BF6 /* Dishwasher Trivia WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dishwasher Trivia WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFEB01F1C0B776600FA8BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		DDFEB0211C0B776600FA8BF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDFEB0231C0B776600FA8BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDFEB0281C0B776600FA8BF6 /* Dishwasher Trivia WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Dishwasher Trivia WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFEB02E1C0B776600FA8BF6 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		DDFEB02F1C0B776600FA8BF6 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		DDFEB0301C0B776600FA8BF6 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		DDFEB0321C0B776600FA8BF6 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		DDFEB0331C0B776600FA8BF6 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		DDFEB0351C0B776600FA8BF6 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		DDFEB0361C0B776600FA8BF6 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		DDFEB0381C0B776600FA8BF6 /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
+		DDFEB0391C0B776600FA8BF6 /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
+		DDFEB03B1C0B776600FA8BF6 /* ComplicationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComplicationController.h; sourceTree = "<group>"; };
+		DDFEB03C1C0B776600FA8BF6 /* ComplicationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComplicationController.m; sourceTree = "<group>"; };
+		DDFEB03E1C0B776600FA8BF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDFEB0401C0B776600FA8BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDFEB04E1C0B783C00FA8BF6 /* DishwasherInterfaceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DishwasherInterfaceManager.h; sourceTree = "<group>"; };
+		DDFEB04F1C0B783C00FA8BF6 /* DishwasherInterfaceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DishwasherInterfaceManager.m; sourceTree = "<group>"; };
+		DDFEB0561C0B78BF00FA8BF6 /* DishwasherTriviaObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DishwasherTriviaObject.h; path = "../Dishwasher Trivia/DishwasherTriviaObject.h"; sourceTree = "<group>"; };
+		DDFEB0571C0B78BF00FA8BF6 /* DishwasherTriviaObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DishwasherTriviaObject.m; path = "../Dishwasher Trivia/DishwasherTriviaObject.m"; sourceTree = "<group>"; };
+		DDFEB05A1C0B78D100FA8BF6 /* DishwasherStatusObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DishwasherStatusObject.h; path = "../Dishwasher Trivia/DishwasherStatusObject.h"; sourceTree = "<group>"; };
+		DDFEB05B1C0B78D100FA8BF6 /* DishwasherStatusObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DishwasherStatusObject.m; path = "../Dishwasher Trivia/DishwasherStatusObject.m"; sourceTree = "<group>"; };
+		DDFEB05D1C0B7CB100FA8BF6 /* DishwasherObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DishwasherObject.h; path = "../Dishwasher Trivia/DishwasherObject.h"; sourceTree = "<group>"; };
+		DDFEB05E1C0B7CB100FA8BF6 /* DishwasherObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DishwasherObject.m; path = "../Dishwasher Trivia/DishwasherObject.m"; sourceTree = "<group>"; };
+		DDFEB0611C0B7E0500FA8BF6 /* DishwasherCurrentStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DishwasherCurrentStatus.h; path = "../Dishwasher Trivia/DishwasherCurrentStatus.h"; sourceTree = "<group>"; };
+		DDFEB0621C0B7E0500FA8BF6 /* DishwasherCurrentStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DishwasherCurrentStatus.m; path = "../Dishwasher Trivia/DishwasherCurrentStatus.m"; sourceTree = "<group>"; };
+		DDFEB0651C0BBCD300FA8BF6 /* DishwasherTriviaQuestionObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DishwasherTriviaQuestionObject.h; path = "../Dishwasher Trivia/DishwasherTriviaQuestionObject.h"; sourceTree = "<group>"; };
+		DDFEB0661C0BBCD300FA8BF6 /* DishwasherTriviaQuestionObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DishwasherTriviaQuestionObject.m; path = "../Dishwasher Trivia/DishwasherTriviaQuestionObject.m"; sourceTree = "<group>"; };
+		DDFEB0681C0BBDC500FA8BF6 /* DishwasherTriviaManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DishwasherTriviaManager.h; path = "../Dishwasher Trivia/DishwasherTriviaManager.h"; sourceTree = "<group>"; };
+		DDFEB0691C0BBDC500FA8BF6 /* DishwasherTriviaManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DishwasherTriviaManager.m; path = "../Dishwasher Trivia/DishwasherTriviaManager.m"; sourceTree = "<group>"; };
+		DDFEB06B1C0BBF4E00FA8BF6 /* TriviaInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriviaInterfaceController.h; sourceTree = "<group>"; };
+		DDFEB06C1C0BBF4E00FA8BF6 /* TriviaInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriviaInterfaceController.m; sourceTree = "<group>"; };
+		DDFEB0721C0BC07000FA8BF6 /* HRMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRMonitor.h; sourceTree = "<group>"; };
+		DDFEB0731C0BC07000FA8BF6 /* HRMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRMonitor.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD46427D1C0DF243007E14D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4642A51C0E0089007E14D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFEAFFF1C0B776600FA8BF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4642881C0DF243007E14D1 /* DWKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFEB0251C0B776600FA8BF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4642B01C0E0089007E14D1 /* DWKitWatch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD4642821C0DF243007E14D1 /* DWKit */ = {
+			isa = PBXGroup;
+			children = (
+				DD4642951C0DF37B007E14D1 /* DWTrivia */,
+				DD4642941C0DF375007E14D1 /* DWObjects */,
+				DD4642831C0DF243007E14D1 /* DWKit.h */,
+				DD4642851C0DF243007E14D1 /* Info.plist */,
+				DD46429D1C0DF5D4007E14D1 /* NSMutableArray+Shuffle.h */,
+				DD46429E1C0DF5D4007E14D1 /* NSMutableArray+Shuffle.m */,
+			);
+			path = DWKit;
+			sourceTree = "<group>";
+		};
+		DD4642941C0DF375007E14D1 /* DWObjects */ = {
+			isa = PBXGroup;
+			children = (
+				DDFEB05D1C0B7CB100FA8BF6 /* DishwasherObject.h */,
+				DDFEB05E1C0B7CB100FA8BF6 /* DishwasherObject.m */,
+				DDFEB05A1C0B78D100FA8BF6 /* DishwasherStatusObject.h */,
+				DDFEB05B1C0B78D100FA8BF6 /* DishwasherStatusObject.m */,
+				DDFEB0611C0B7E0500FA8BF6 /* DishwasherCurrentStatus.h */,
+				DDFEB0621C0B7E0500FA8BF6 /* DishwasherCurrentStatus.m */,
+			);
+			name = DWObjects;
+			sourceTree = "<group>";
+		};
+		DD4642951C0DF37B007E14D1 /* DWTrivia */ = {
+			isa = PBXGroup;
+			children = (
+				DDFEB0561C0B78BF00FA8BF6 /* DishwasherTriviaObject.h */,
+				DDFEB0571C0B78BF00FA8BF6 /* DishwasherTriviaObject.m */,
+				DDFEB0651C0BBCD300FA8BF6 /* DishwasherTriviaQuestionObject.h */,
+				DDFEB0661C0BBCD300FA8BF6 /* DishwasherTriviaQuestionObject.m */,
+				DDFEB0681C0BBDC500FA8BF6 /* DishwasherTriviaManager.h */,
+				DDFEB0691C0BBDC500FA8BF6 /* DishwasherTriviaManager.m */,
+			);
+			name = DWTrivia;
+			sourceTree = "<group>";
+		};
+		DD4642AA1C0E0089007E14D1 /* DWKitWatch */ = {
+			isa = PBXGroup;
+			children = (
+				DD4642AB1C0E0089007E14D1 /* DWKitWatch.h */,
+				DD4642AD1C0E0089007E14D1 /* Info.plist */,
+			);
+			path = DWKitWatch;
+			sourceTree = "<group>";
+		};
+		DD4642C41C0E0F89007E14D1 /* ComplicationManager */ = {
+			isa = PBXGroup;
+			children = (
+				DD4642C51C0E0FAC007E14D1 /* ComplicationManager.h */,
+				DD4642C61C0E0FAC007E14D1 /* ComplicationManager.m */,
+			);
+			name = ComplicationManager;
+			sourceTree = "<group>";
+		};
+		DDFEAFF91C0B776600FA8BF6 = {
+			isa = PBXGroup;
+			children = (
+				DDFEB0041C0B776600FA8BF6 /* Dishwasher Trivia */,
+				DDFEB01D1C0B776600FA8BF6 /* Dishwasher Trivia WatchKit App */,
+				DDFEB02C1C0B776600FA8BF6 /* Dishwasher Trivia WatchKit Extension */,
+				DD4642821C0DF243007E14D1 /* DWKit */,
+				DD4642AA1C0E0089007E14D1 /* DWKitWatch */,
+				DDFEB0031C0B776600FA8BF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDFEB0031C0B776600FA8BF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDFEB0021C0B776600FA8BF6 /* Dishwasher Trivia.app */,
+				DDFEB0191C0B776600FA8BF6 /* Dishwasher Trivia WatchKit App.app */,
+				DDFEB0281C0B776600FA8BF6 /* Dishwasher Trivia WatchKit Extension.appex */,
+				DD4642811C0DF243007E14D1 /* DWKit.framework */,
+				DD4642A91C0E0089007E14D1 /* DWKitWatch.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDFEB0041C0B776600FA8BF6 /* Dishwasher Trivia */ = {
+			isa = PBXGroup;
+			children = (
+				DDFEB0511C0B788B00FA8BF6 /* DishwasherInterface */,
+				DDFEB0081C0B776600FA8BF6 /* AppDelegate.h */,
+				DDFEB0091C0B776600FA8BF6 /* AppDelegate.m */,
+				DDFEB00B1C0B776600FA8BF6 /* ViewController.h */,
+				DDFEB00C1C0B776600FA8BF6 /* ViewController.m */,
+				DDFEB00E1C0B776600FA8BF6 /* Main.storyboard */,
+				DDFEB0111C0B776600FA8BF6 /* Assets.xcassets */,
+				DDFEB0131C0B776600FA8BF6 /* LaunchScreen.storyboard */,
+				DDFEB0161C0B776600FA8BF6 /* Info.plist */,
+				DDFEB0051C0B776600FA8BF6 /* Supporting Files */,
+			);
+			path = "Dishwasher Trivia";
+			sourceTree = "<group>";
+		};
+		DDFEB0051C0B776600FA8BF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDFEB0061C0B776600FA8BF6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDFEB01D1C0B776600FA8BF6 /* Dishwasher Trivia WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				DDFEB01E1C0B776600FA8BF6 /* Interface.storyboard */,
+				DDFEB0211C0B776600FA8BF6 /* Assets.xcassets */,
+				DDFEB0231C0B776600FA8BF6 /* Info.plist */,
+			);
+			path = "Dishwasher Trivia WatchKit App";
+			sourceTree = "<group>";
+		};
+		DDFEB02C1C0B776600FA8BF6 /* Dishwasher Trivia WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DDFEB06F1C0BC02B00FA8BF6 /* Phase1 */,
+				DDFEB0701C0BC03400FA8BF6 /* Phase2 */,
+				DDFEB0711C0BC04F00FA8BF6 /* Phase3 */,
+				DDFEB06E1C0BBF5600FA8BF6 /* VCs */,
+				DDFEB02F1C0B776600FA8BF6 /* InterfaceController.h */,
+				DDFEB0301C0B776600FA8BF6 /* InterfaceController.m */,
+				DDFEB0321C0B776600FA8BF6 /* ExtensionDelegate.h */,
+				DDFEB0331C0B776600FA8BF6 /* ExtensionDelegate.m */,
+				DDFEB03E1C0B776600FA8BF6 /* Assets.xcassets */,
+				DDFEB0401C0B776600FA8BF6 /* Info.plist */,
+				DDFEB02D1C0B776600FA8BF6 /* Supporting Files */,
+			);
+			path = "Dishwasher Trivia WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		DDFEB02D1C0B776600FA8BF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDFEB02E1C0B776600FA8BF6 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDFEB0511C0B788B00FA8BF6 /* DishwasherInterface */ = {
+			isa = PBXGroup;
+			children = (
+				DDFEB0551C0B78A400FA8BF6 /* Objects */,
+				DDFEB04E1C0B783C00FA8BF6 /* DishwasherInterfaceManager.h */,
+				DDFEB04F1C0B783C00FA8BF6 /* DishwasherInterfaceManager.m */,
+			);
+			name = DishwasherInterface;
+			sourceTree = "<group>";
+		};
+		DDFEB0551C0B78A400FA8BF6 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				DDFEB0601C0B7CB800FA8BF6 /* DishObjects */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		DDFEB0601C0B7CB800FA8BF6 /* DishObjects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DishObjects;
+			sourceTree = "<group>";
+		};
+		DDFEB06E1C0BBF5600FA8BF6 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				DD4642C41C0E0F89007E14D1 /* ComplicationManager */,
+			);
+			name = VCs;
+			sourceTree = "<group>";
+		};
+		DDFEB06F1C0BC02B00FA8BF6 /* Phase1 */ = {
+			isa = PBXGroup;
+			children = (
+				DD4642A11C0DF722007E14D1 /* TriviaPickerItem.h */,
+				DD4642A21C0DF722007E14D1 /* TriviaPickerItem.m */,
+				DDFEB06B1C0BBF4E00FA8BF6 /* TriviaInterfaceController.h */,
+				DDFEB06C1C0BBF4E00FA8BF6 /* TriviaInterfaceController.m */,
+				DDFEB0381C0B776600FA8BF6 /* GlanceController.h */,
+				DDFEB0391C0B776600FA8BF6 /* GlanceController.m */,
+				DDFEB0351C0B776600FA8BF6 /* NotificationController.h */,
+				DDFEB0361C0B776600FA8BF6 /* NotificationController.m */,
+			);
+			name = Phase1;
+			sourceTree = "<group>";
+		};
+		DDFEB0701C0BC03400FA8BF6 /* Phase2 */ = {
+			isa = PBXGroup;
+			children = (
+				DDFEB03B1C0B776600FA8BF6 /* ComplicationController.h */,
+				DDFEB03C1C0B776600FA8BF6 /* ComplicationController.m */,
+			);
+			name = Phase2;
+			sourceTree = "<group>";
+		};
+		DDFEB0711C0BC04F00FA8BF6 /* Phase3 */ = {
+			isa = PBXGroup;
+			children = (
+				DDFEB0721C0BC07000FA8BF6 /* HRMonitor.h */,
+				DDFEB0731C0BC07000FA8BF6 /* HRMonitor.m */,
+			);
+			name = Phase3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DD46427E1C0DF243007E14D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4642841C0DF243007E14D1 /* DWKit.h in Headers */,
+				DD4642911C0DF31E007E14D1 /* DishwasherTriviaObject.h in Headers */,
+				DD4642921C0DF31E007E14D1 /* DishwasherTriviaQuestionObject.h in Headers */,
+				DD4642931C0DF31E007E14D1 /* DishwasherTriviaManager.h in Headers */,
+				DD4642961C0DF39C007E14D1 /* DishwasherObject.h in Headers */,
+				DD4642971C0DF39C007E14D1 /* DishwasherStatusObject.h in Headers */,
+				DD46429F1C0DF5D4007E14D1 /* NSMutableArray+Shuffle.h in Headers */,
+				DD4642981C0DF39C007E14D1 /* DishwasherCurrentStatus.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4642A61C0E0089007E14D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4642AC1C0E0089007E14D1 /* DWKitWatch.h in Headers */,
+				DD4642B61C0E00C4007E14D1 /* DishwasherTriviaObject.h in Headers */,
+				DD4642B71C0E00C4007E14D1 /* DishwasherTriviaQuestionObject.h in Headers */,
+				DD4642B81C0E00C4007E14D1 /* DishwasherTriviaManager.h in Headers */,
+				DD4642B91C0E00C4007E14D1 /* DishwasherObject.h in Headers */,
+				DD4642BA1C0E00C4007E14D1 /* DishwasherStatusObject.h in Headers */,
+				DD4642BB1C0E00C4007E14D1 /* DishwasherCurrentStatus.h in Headers */,
+				DD4642C31C0E00E3007E14D1 /* NSMutableArray+Shuffle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DD4642801C0DF243007E14D1 /* DWKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD46428A1C0DF243007E14D1 /* Build configuration list for PBXNativeTarget "DWKit" */;
+			buildPhases = (
+				DD46427C1C0DF243007E14D1 /* Sources */,
+				DD46427D1C0DF243007E14D1 /* Frameworks */,
+				DD46427E1C0DF243007E14D1 /* Headers */,
+				DD46427F1C0DF243007E14D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DWKit;
+			productName = DWKit;
+			productReference = DD4642811C0DF243007E14D1 /* DWKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD4642A81C0E0089007E14D1 /* DWKitWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD4642B21C0E0089007E14D1 /* Build configuration list for PBXNativeTarget "DWKitWatch" */;
+			buildPhases = (
+				DD4642A41C0E0089007E14D1 /* Sources */,
+				DD4642A51C0E0089007E14D1 /* Frameworks */,
+				DD4642A61C0E0089007E14D1 /* Headers */,
+				DD4642A71C0E0089007E14D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DWKitWatch;
+			productName = DWKitWatch;
+			productReference = DD4642A91C0E0089007E14D1 /* DWKitWatch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DDFEB0011C0B776600FA8BF6 /* Dishwasher Trivia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDFEB04B1C0B776600FA8BF6 /* Build configuration list for PBXNativeTarget "Dishwasher Trivia" */;
+			buildPhases = (
+				DDFEAFFE1C0B776600FA8BF6 /* Sources */,
+				DDFEAFFF1C0B776600FA8BF6 /* Frameworks */,
+				DDFEB0001C0B776600FA8BF6 /* Resources */,
+				DDFEB04A1C0B776600FA8BF6 /* Embed Watch Content */,
+				DD46428D1C0DF243007E14D1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDFEB01C1C0B776600FA8BF6 /* PBXTargetDependency */,
+				DD4642871C0DF243007E14D1 /* PBXTargetDependency */,
+			);
+			name = "Dishwasher Trivia";
+			productName = "Dishwasher Trivia";
+			productReference = DDFEB0021C0B776600FA8BF6 /* Dishwasher Trivia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDFEB0181C0B776600FA8BF6 /* Dishwasher Trivia WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDFEB0471C0B776600FA8BF6 /* Build configuration list for PBXNativeTarget "Dishwasher Trivia WatchKit App" */;
+			buildPhases = (
+				DDFEB0171C0B776600FA8BF6 /* Resources */,
+				DDFEB0461C0B776600FA8BF6 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDFEB02B1C0B776600FA8BF6 /* PBXTargetDependency */,
+			);
+			name = "Dishwasher Trivia WatchKit App";
+			productName = "Dishwasher Trivia WatchKit App";
+			productReference = DDFEB0191C0B776600FA8BF6 /* Dishwasher Trivia WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		DDFEB0271C0B776600FA8BF6 /* Dishwasher Trivia WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDFEB0431C0B776600FA8BF6 /* Build configuration list for PBXNativeTarget "Dishwasher Trivia WatchKit Extension" */;
+			buildPhases = (
+				DDFEB0241C0B776600FA8BF6 /* Sources */,
+				DDFEB0251C0B776600FA8BF6 /* Frameworks */,
+				DDFEB0261C0B776600FA8BF6 /* Resources */,
+				DD4642B51C0E0089007E14D1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD4642AF1C0E0089007E14D1 /* PBXTargetDependency */,
+			);
+			name = "Dishwasher Trivia WatchKit Extension";
+			productName = "Dishwasher Trivia WatchKit Extension";
+			productReference = DDFEB0281C0B776600FA8BF6 /* Dishwasher Trivia WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDFEAFFA1C0B776600FA8BF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = bbrosemer;
+				TargetAttributes = {
+					DD4642801C0DF243007E14D1 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 8YN8VAXBR6;
+					};
+					DD4642A81C0E0089007E14D1 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					DDFEB0011C0B776600FA8BF6 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 8YN8VAXBR6;
+					};
+					DDFEB0181C0B776600FA8BF6 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					DDFEB0271C0B776600FA8BF6 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = DDFEAFFD1C0B776600FA8BF6 /* Build configuration list for PBXProject "SwrirlyPond Trivia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDFEAFF91C0B776600FA8BF6;
+			productRefGroup = DDFEB0031C0B776600FA8BF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDFEB0011C0B776600FA8BF6 /* Dishwasher Trivia */,
+				DDFEB0181C0B776600FA8BF6 /* Dishwasher Trivia WatchKit App */,
+				DDFEB0271C0B776600FA8BF6 /* Dishwasher Trivia WatchKit Extension */,
+				DD4642801C0DF243007E14D1 /* DWKit */,
+				DD4642A81C0E0089007E14D1 /* DWKitWatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD46427F1C0DF243007E14D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4642A71C0E0089007E14D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFEB0001C0B776600FA8BF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFEB0151C0B776600FA8BF6 /* LaunchScreen.storyboard in Resources */,
+				DDFEB0121C0B776600FA8BF6 /* Assets.xcassets in Resources */,
+				DDFEB0101C0B776600FA8BF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFEB0171C0B776600FA8BF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFEB0221C0B776600FA8BF6 /* Assets.xcassets in Resources */,
+				DDFEB0201C0B776600FA8BF6 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFEB0261C0B776600FA8BF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFEB03F1C0B776600FA8BF6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD46427C1C0DF243007E14D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4642A01C0DF5D4007E14D1 /* NSMutableArray+Shuffle.m in Sources */,
+				DD46428F1C0DF2CC007E14D1 /* DishwasherTriviaQuestionObject.m in Sources */,
+				DD46428E1C0DF2C9007E14D1 /* DishwasherTriviaObject.m in Sources */,
+				DD4642901C0DF2D1007E14D1 /* DishwasherTriviaManager.m in Sources */,
+				DD4642991C0DF3B3007E14D1 /* DishwasherObject.m in Sources */,
+				DD46429A1C0DF3B3007E14D1 /* DishwasherStatusObject.m in Sources */,
+				DD46429B1C0DF3B3007E14D1 /* DishwasherCurrentStatus.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4642A41C0E0089007E14D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4642BC1C0E00D8007E14D1 /* DishwasherTriviaObject.m in Sources */,
+				DD4642BD1C0E00D8007E14D1 /* DishwasherTriviaQuestionObject.m in Sources */,
+				DD4642BE1C0E00D8007E14D1 /* DishwasherTriviaManager.m in Sources */,
+				DD4642BF1C0E00D8007E14D1 /* DishwasherObject.m in Sources */,
+				DD4642C01C0E00D8007E14D1 /* DishwasherStatusObject.m in Sources */,
+				DD4642C11C0E00D8007E14D1 /* DishwasherCurrentStatus.m in Sources */,
+				DD4642C21C0E00D8007E14D1 /* NSMutableArray+Shuffle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFEAFFE1C0B776600FA8BF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFEB00D1C0B776600FA8BF6 /* ViewController.m in Sources */,
+				DDFEB0501C0B783C00FA8BF6 /* DishwasherInterfaceManager.m in Sources */,
+				DDFEB00A1C0B776600FA8BF6 /* AppDelegate.m in Sources */,
+				DDFEB0071C0B776600FA8BF6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFEB0241C0B776600FA8BF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFEB06D1C0BBF4E00FA8BF6 /* TriviaInterfaceController.m in Sources */,
+				DD4642A31C0DF722007E14D1 /* TriviaPickerItem.m in Sources */,
+				DDFEB0341C0B776600FA8BF6 /* ExtensionDelegate.m in Sources */,
+				DDFEB0311C0B776600FA8BF6 /* InterfaceController.m in Sources */,
+				DD4642C71C0E0FAC007E14D1 /* ComplicationManager.m in Sources */,
+				DDFEB0371C0B776600FA8BF6 /* NotificationController.m in Sources */,
+				DDFEB03A1C0B776600FA8BF6 /* GlanceController.m in Sources */,
+				DDFEB0741C0BC07000FA8BF6 /* HRMonitor.m in Sources */,
+				DDFEB03D1C0B776600FA8BF6 /* ComplicationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD4642871C0DF243007E14D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD4642801C0DF243007E14D1 /* DWKit */;
+			targetProxy = DD4642861C0DF243007E14D1 /* PBXContainerItemProxy */;
+		};
+		DD4642AF1C0E0089007E14D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD4642A81C0E0089007E14D1 /* DWKitWatch */;
+			targetProxy = DD4642AE1C0E0089007E14D1 /* PBXContainerItemProxy */;
+		};
+		DDFEB01C1C0B776600FA8BF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDFEB0181C0B776600FA8BF6 /* Dishwasher Trivia WatchKit App */;
+			targetProxy = DDFEB01B1C0B776600FA8BF6 /* PBXContainerItemProxy */;
+		};
+		DDFEB02B1C0B776600FA8BF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDFEB0271C0B776600FA8BF6 /* Dishwasher Trivia WatchKit Extension */;
+			targetProxy = DDFEB02A1C0B776600FA8BF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDFEB00E1C0B776600FA8BF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDFEB00F1C0B776600FA8BF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDFEB0131C0B776600FA8BF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDFEB0141C0B776600FA8BF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DDFEB01E1C0B776600FA8BF6 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDFEB01F1C0B776600FA8BF6 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD46428B1C0DF243007E14D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DWKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbrosemer.DWKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD46428C1C0DF243007E14D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DWKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbrosemer.DWKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD4642B31C0E0089007E14D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DWKitWatch/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbrosemer.DWKitWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		DD4642B41C0E0089007E14D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DWKitWatch/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbrosemer.DWKitWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		DDFEB0411C0B776600FA8BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDFEB0421C0B776600FA8BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDFEB0441C0B776600FA8BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "Dishwasher Trivia WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bbrosemer.Dishwasher-Trivia.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos2.0;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		DDFEB0451C0B776600FA8BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "Dishwasher Trivia WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bbrosemer.Dishwasher-Trivia.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos2.0;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		DDFEB0481C0B776600FA8BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Dishwasher_Trivia_WatchKit_Extension;
+				INFOPLIST_FILE = "Dishwasher Trivia WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bbrosemer.Dishwasher-Trivia.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos2.0;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		DDFEB0491C0B776600FA8BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Dishwasher_Trivia_WatchKit_Extension;
+				INFOPLIST_FILE = "Dishwasher Trivia WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bbrosemer.Dishwasher-Trivia.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos2.0;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		DDFEB04C1C0B776600FA8BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Dishwasher Trivia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bbrosemer.Dishwasher-Trivia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos9.1;
+			};
+			name = Debug;
+		};
+		DDFEB04D1C0B776600FA8BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Dishwasher Trivia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bbrosemer.Dishwasher-Trivia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos9.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD46428A1C0DF243007E14D1 /* Build configuration list for PBXNativeTarget "DWKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD46428B1C0DF243007E14D1 /* Debug */,
+				DD46428C1C0DF243007E14D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD4642B21C0E0089007E14D1 /* Build configuration list for PBXNativeTarget "DWKitWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD4642B31C0E0089007E14D1 /* Debug */,
+				DD4642B41C0E0089007E14D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDFEAFFD1C0B776600FA8BF6 /* Build configuration list for PBXProject "SwrirlyPond Trivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFEB0411C0B776600FA8BF6 /* Debug */,
+				DDFEB0421C0B776600FA8BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDFEB0431C0B776600FA8BF6 /* Build configuration list for PBXNativeTarget "Dishwasher Trivia WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFEB0441C0B776600FA8BF6 /* Debug */,
+				DDFEB0451C0B776600FA8BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDFEB0471C0B776600FA8BF6 /* Build configuration list for PBXNativeTarget "Dishwasher Trivia WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFEB0481C0B776600FA8BF6 /* Debug */,
+				DDFEB0491C0B776600FA8BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDFEB04B1C0B776600FA8BF6 /* Build configuration list for PBXNativeTarget "Dishwasher Trivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFEB04C1C0B776600FA8BF6 /* Debug */,
+				DDFEB04D1C0B776600FA8BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDFEAFFA1C0B776600FA8BF6 /* Project object */;
+}
